@@ -37,7 +37,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.75); /* same dimming effect as the GIF CSS */
+    background: rgba(0, 0, 0, 0.75); /*same dimming effect as the GIF CSS */ 
     z-index: -1;
   }
   
@@ -202,6 +202,23 @@ white-space: nowrap;
   animation: glow 1s ease-in-out infinite alternate;
 }
 
+.fa-icon.kick-icon {
+  display: inline-block;
+  vertical-align: middle; /* Aligns with the middle of the text line */
+  width: 1.5625rem;  /* Match with the size of other icons */
+  height: 1.5625rem; /* Match with the size of other icons */
+  position: relative;
+  top: -0.2rem; /* Adjust as needed to perfectly align vertically */
+}
+
+/* Apply glow effect to Kick icon */
+.rounded-social-buttons .kick:hover, .rounded-social-buttons .kick:focus {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
@@ -213,6 +230,30 @@ white-space: nowrap;
 
 .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
   font-size: 25px;
+}
+
+.kick-icon-container {
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+
+.kick-icon-container:hover {
+  filter: drop-shadow(0 0 20px #e60073) drop-shadow(0 0 30px #ff4da6);
+}
+
+.rounded-social-buttons .kick:hover .kick-icon-container {
+  -webkit-animation: glow-filter-strong 1s ease-in-out infinite alternate;
+  -moz-animation: glow-filter-strong 1s ease-in-out infinite alternate;
+  animation: glow-filter-strong 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow-filter-strong {
+  from {
+    filter: drop-shadow(0 0 20px #e60073) drop-shadow(0 0 30px #e60073);
+  }
+  to {
+    filter: drop-shadow(0 0 30px #ff4da6) drop-shadow(0 0 40px #ff4da6);
+  }
 }
 
 
