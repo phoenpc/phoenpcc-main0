@@ -1,0 +1,10 @@
+# Heya
+
+User-agent: *
+Disallow: /
+
+User-agent: Discordbot
+Allow: *
+
+User-agent: Twitterbot
+Allow: *

@@ -1,0 +1,158 @@
+/* 
+
+((( BODY CSS)))
+((( BODY CSS)))
+((( BODY CSS)))
+
+*/
+@import url('https://assets.ddubz.cx/fonts/RDYW/css_shit.css');
+@import url('https://assets.ddubz.cx/fonts/CN/font2.css');
+@import url('https://assets.ddubz.cx/fonts/SF/sf.css');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@media screen and (min-width: 601px) {
+    div.example {
+      font-size: 80px;
+    }
+  }
+
+  /* https://cdn.phoenpc.co.nz/i/FOMVb9YXEAIAJ7x.jpg */
+
+  
+body {
+background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ); 
+background-color:rgb(0, 0, 0);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+text-align: center;
+font-family: SFPro, Helvetica, sans-serif;
+max-width: 100%;
+min-height: 90vh;
+height: auto;
+letter-spacing: 0.1em;
+/* position: fixed;
+top: 75%;
+left: 50%;
+transform: translate(-50%, -50%);
+*/
+}
+
+.logo {
+    width: 100px;
+  }
+
+  h1 {
+    color: #FFFFFF;
+    font-family:"ITC Lubalin Graph Std Bold" !important;
+    font-size: 24px;
+    margin-top:3px;
+    margin-bottom:3px;
+  }
+
+  h2 {
+    margin-top: 24px;
+    color: #FFFFFF;
+  }
+  
+  p {
+    font-size: 20px;
+    color: white;
+    font-family: SFPro, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  p2 {
+    font-size: 16px;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif, sans-serif;
+    text-align: center;
+  }
+
+  #SOC_MID2 {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+#SOC_BOTS {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+#name {
+  
+text-align: center;
+font-family: 'Helvetica', sans-serif;
+width: 340px;
+margin: 0 auto;
+}
+
+#photo {
+  float: left;
+  border-radius: 50%;
+  height: 105px;
+}
+
+/* 
+
+((( BUTTON CSS )))
+((( BUTTON CSS )))
+((( BUTTON CSS )))
+
+*/
+
+.rdywbutton  {
+  display: inline-block;
+  padding: 0.6em 1.7em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.rdywbutton:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
+/* 
+
+((( MISC )))
+
+*/
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 65px;   /* Height of the footer */
+ /* background: rgb(0, 0, 0);*/
+}
+
+.img2 {
+  position: relative;
+  text-align: left;
+  transform: translate(-2%, -10%);
+}
+
+.footer .rounded-social-buttons {
+  position: relative;
+  text-align: right;
+  transform: translate(-10%, -50%);
+}

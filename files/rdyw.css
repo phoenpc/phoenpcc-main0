@@ -1,0 +1,243 @@
+/* 
+
+((( BODY CSS)))
+((( BODY CSS)))
+((( BODY CSS)))
+
+*/
+@import url('https://assets.ddubz.cx/fonts/RDYW/css_shit.css');
+@import url('https://assets.ddubz.cx/fonts/CN/font2.css');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@media screen and (min-width: 601px) {
+    div.example {
+      font-size: 80px;
+    }
+  }
+
+  /* 
+  https://cdn.phoenpc.co.nz/i/FOMVb9YXEAIAJ7x.jpg 
+  background: rgb(77,36,170);
+  background: linear-gradient(90deg, rgba(77,36,170,1) 0%, rgba(185,45,71,1) 100%);*/
+
+  /* background-color:rgb(0, 0, 0); */
+  
+  #background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -2;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75); /* same dimming effect as the GIF CSS */
+    z-index: -1;
+  }
+  
+  body {
+    overflow: hidden;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    max-width: 100%;
+    min-height: 90vh;
+    height: auto;
+    letter-spacing: 0.1em;
+  }
+  
+
+
+.logo {
+    width: 100px;
+  }
+
+  h1 {
+    color: #FFFFFF;
+    font-family:"ITC Lubalin Graph Std Bold" !important;
+    font-size: 24px;
+    margin-top:3px;
+    margin-bottom:3px;
+  }
+
+  h2 {
+    margin-top: 24px;
+    color: #FFFFFF;
+  }
+  
+  p {
+    font-size: 18px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  p2 {
+    font-size: 16px;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif, sans-serif;
+    text-align: center;
+  }
+
+  #SOC_MID2 {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+#SOC_BOTS {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+#name {
+  
+text-align: center;
+font-family: 'Helvetica', sans-serif;
+width: 340px;
+margin: 0 auto;
+}
+
+#photo {
+  float: left;
+  border-radius: 50%;
+  height: 105px;
+}
+
+/* 
+
+((( BUTTON CSS )))
+((( BUTTON CSS )))
+((( BUTTON CSS )))
+
+*/
+
+.rdywbutton  {
+  display: inline-block;
+  padding: 0.6em 1.7em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.rdywbutton:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
+/* 
+
+
+
+SOCIAL MEDIA ICON CSS
+
+
+
+*/
+
+textarea {
+  resize: none;
+}
+
+.text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+white-space: nowrap;
+}
+
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ea4dff, 0 0 60px #b84dff, 0 0 70px #9900ff, 0 0 80px #3c00ff;
+  }
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+  font-size: 25px;
+}
+
+
+/* 
+
+((( MISC )))
+
+*/
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 65px;   /* Height of the footer */
+ /* background: rgb(0, 0, 0);*/
+}
+
+.img2 {
+  position: relative;
+  text-align: left;
+  transform: translate(-2%, -10%);
+}
+
+.footer .rounded-social-buttons {
+  position: relative;
+  text-align: right;
+  transform: translate(-10%, -50%);
+}
