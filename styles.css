@@ -1,0 +1,142 @@
+/* The legacy CSS is located at /files/rdyw.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(36, 36, 36);
+  color: white;
+  font-family: "Roboto", Arial, sans-serif;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    padding: 10px; /* Thicker banner padding */
+    flex-shrink: 0;
+  }
+
+footer a {
+  color: #1d72b8;
+  text-decoration: none;
+}
+
+#SOC_MID2 {
+  text-align: center;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover,
+.rounded-social-buttons .social-button:focus {
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ea4dff;
+  }
+}
+
+.fa-icon.kick-icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.5625rem;
+  height: 1.5625rem;
+  position: relative;
+  top: -0.2rem;
+}
+
+.kick-icon-container {
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+
+.kick-icon-container:hover {
+  filter: drop-shadow(0 0 20px #e60073) drop-shadow(0 0 30px #e60073);
+}
+
+.rounded-social-buttons .kick:hover .kick-icon-container {
+  animation: glow-filter-strong 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow-filter-strong {
+  from {
+    filter: drop-shadow(0 0 20px #e60073) drop-shadow(0 0 30px #e60073);
+  }
+  to {
+    filter: drop-shadow(0 0 30px #ff4da6) drop-shadow(0 0 40px #ff4da6);
+  }
+}
+
+.rdywbutton {
+  display: inline-block;
+  padding: 0.6em 1.7em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.rdywbutton:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.channel-message {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 2px;
+    margin-top: 2px;
+    text-align: center;
+    font-size: 0.8rem; /* Increase font size */
+  }
